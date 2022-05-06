@@ -1,0 +1,60 @@
+html, .pre-loader {
+	padding: 0; margin: 0;
+}
+
+@media screen and (max-width: 480px) {
+
+body .pre-loader {
+min-width: 20px;
+min-height: 100vh;
+}
+}
+
+
+
+.pre-loader {
+	display: block !important;
+
+	position: relative;
+	width: 100vw;
+	min-width: 800px;
+	height: 100vh;
+	min-height: 600px;
+	background: linear-gradient(-45deg, #8691b3, #edeef3);
+}
+	.pre-loader *, .pre-loader *:before, .pre-loader *:after {
+		
+		position: absolute;
+		top: 50%; left: 50%;
+	}
+
+
+
+.pre-loader img{
+width: 10%;
+position: absolute;
+top: 40%;
+left: 45%;
+
+
+	animation-name: logo-appear;
+	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+}
+
+
+@keyframes logo-appear{
+	0%{
+		
+		width: 2%;
+	}
+	50%{
+		left: 5%;
+		
+	}
+	100%{
+		
+		width: 10%;
+	}
+	
+}
