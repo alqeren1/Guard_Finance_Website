@@ -1,5 +1,7 @@
 # Guard Finance Website
 
+![Guard Logo](audit/img/guard-no-bg.png)
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE.txt)
 
 Guard Finance is a professional, front-end website designed for blockchain auditing. Built using pure HTML and CSS, it offers a sleek, responsive, and modern interface tailored to the blockchain finance industry.
